@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  margin: 0 auto;
+  max-width: 500px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "figtree", sans-serif;
+  font-size: 16px;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 1.25rem;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  padding: 1.25rem;
+  border-radius: 1.5rem;
+  box-shadow: 10px 10px 0px hsl(0, 0%, 0%);
+  margin-bottom: 2rem;
+  max-width: 370px;
+}
+
+img {
+  border-radius: 1rem;
+  padding-bottom: .5rem;
+  width: 100%;
+}
+
+.container h2 {
+  color: hsl(0, 0%, 7%);
+  background-color: hsl(47, 88%, 63%);
+  border-radius: .275rem; 
+  display: inline-block; 
+  font-size: 0.8125rem;
+  margin-bottom: 1rem;
+  padding: .5rem;
+}
+
+.container h1 {
+  color: hsl(0, 0%, 7%);
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.container h1:hover {
+  color: hsl(47, 88%, 63%);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.container p {
+  color: hsl(0, 0%, 7%);
+}
+
+.author {
+  display: flex;
+  flex-direction: row;
+  font-weight: 800;
+  gap: 0.625em;
+  align-items: center;
+  justify-content: left;
+  margin-top: 1rem;
+}
+
+.author img {
+  width: 65px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (min-width: 500px) {
+  .container {
+     width: 1440px;
+  }
+} 
